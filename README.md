@@ -1,2 +1,4 @@
-# web-330
-Repository for JS2 Classwork
+# WEB 330 Enterprise JavaScript II
+## Contributors:
+* Professor Krasso.
+* Nicole Nielsen.
