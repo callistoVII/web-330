@@ -1,0 +1,44 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: Nicole Nielsen
+  Date:   05/03/2025
+  Filename: chef-dashboard css
+*/
+
+/* Add your CSS styles here */
+
+body {
+  font-family: "Newsreader", serif;
+  text-align: center;
+  background-color: rgb(255, 240, 221);
+  margin: 0;
+  padding: 30px;
+}
+
+h1 {
+  color: rgb(26, 8, 7);
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: rgb(78, 17, 17);
+  font-family: "Inconsolata", monospace;
+}
+
+.chef-container {
+  border: 7px double rgb(184, 150, 147);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px auto;
+  width: 550px;
+  background-color: rgb(255, 220, 178);
+}
+
+.error {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
