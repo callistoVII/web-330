@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+      Pragmatic JavaScript
+      Chapter 4
+      Programming Assignment
+
+      Author: Nicole Nielsen
+      Date:  05/11/2025
+      Filename: Assignment 8.2
+    -->
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Movie Finder</h1>
+    <h4>Specifically Robin Williams Movies.</h4>
+    <div class="form-container">
+      <form id="movie-form">
+        <input type="text" id="title-input" placeholder="Enter movie title" />
+        <button type="submit">Search</button>
+      </form>
+      <div id="movie-info">
+        <h2 id="movie-title"></h2>
+        <p id="movie-director"></p>
+        <p id="movie-year"></p>
+        <p id="movie-synopsis"></p>
+      </div>
+      <p id="error-message"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
